@@ -1,29 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 * {
    box-sizing: border-box;
+   font-family: sans-serif;
 }
+
 aside article{
 	background-color: grey;
-}
+	}
+
 html,body{
 		padding: 0;
 		margin:0;
-		font-family: sans-serif;
-}
+	}
 
 .logo {
 		display: inline;
 		color: white;
-		margin: 5px 0 0 10px;
-		
+		margin: 5px 0 0 0px;		
 }
-.logo img{
-		color: transparent;
-		max-width: 40%;
-		transform-origin: left center;
-		vertical-align: middle;
-		border-style: none;
+.logo img{		
+		max-width: 40%;	
 }
 
 nav {
@@ -31,16 +27,14 @@ nav {
    padding: 5px;
    position: sticky;
    top: 0;
-}
-header {
-   display: inline;
-}
+	}
+
 nav a {
        font-size: 18px;
        font-weight: 400;
        text-decoration: none;
        color: white;
-}
+	}
 
 nav a:hover{
        font-weight: bold;
@@ -52,107 +46,17 @@ nav li {
        margin-right: 20px;
     }
 
-h2{
-	font-family: sans-serif;
-	font-weight: normal;
-}
- 
-.slider{
-	overflow: hidden;
-	height: 500px;
-}
- 
-.slider figure div{
-	width: 20%;
-	float: left;
-}
- 
-.slider figure img{
-	width: 100%;
-	float: left;
-}
- 
-.slider figure{
-	position: relative;
-	width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 15s slidy infinite;
-}
- 
-@keyframes slidy{
-	0%{
-		left: 0%
-	}
- 
-	10%{
-		left: 0%;
-	}
- 
-	12%{
-		left: -100%;
-	}
- 
-	22%{
-		left: -100%;
-	}
- 
-	24%{
-		left: -200%;
-	}
- 
-	34%{
-		left: -200%;
-	}
- 
-	36%{
-		left: -300%;
-	}
- 
-	46%{
-		left: -300%;
-	}
- 
-	48%{
-		left: -400%;
-	}
- 
-	58%{
-		left: -400%;
-	}
- 
-	60%{
-		left: -300%;
-	}
- 
-	70%{
-		left: -300%;
-	}
- 
-	72%{
-		left: -200%;
-	}
- 
-	82%{
-		left: -200%;
-	}
- 
-	84%{
-		left: -100%;
-	}
- 
-	94%{
-		left: -100%;
-	}
- 
-	96%{
-		left: 0%;
-	}
- 
-	100%{
-		left: 0%;
-	}
-}
+.jumbotron {
+       font-size: 20px;       
+       background: url('gambar/1.jpg');
+       text-align: center;
+       color: white;
+       height: 500px;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-top: -25px;
+    }
 
 #content {
    float: left;
